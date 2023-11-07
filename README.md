@@ -186,3 +186,20 @@ module.exports = {
 }
 
 ``` 
+### 项目下新建 .eslintignore 
+```
+# eslint 忽略检查 (根据项目需要自行添加)
+node_modules
+dist
+```
+### prettier 支持 
+```
+# 安装 prettier
+yarn add prettier --dev
+```
+### 解决 eslint 和 prettier 冲突 
+解决 ESLint 中的样式规范和 prettier 中样式规范的冲突，以 prettier 的样式规范为准，使 ESLint 中的样式规范自动失效
+```
+# 安装插件 eslint-config-prettier
+yarn add eslint-config-prettier
+``` 
