@@ -3,5 +3,11 @@
 
 ### 打开命令行使用pnpm命令下载脚手架 
 ```
-   pnpm create vite vue3-vutejs-ts-app --template vue
+   pnpm create vite@latest vue3-vutejs-ts-app --template vue-ts
 ```
+### 下载依赖，运行项目 
+```
+  cd vue3-vutejs-ts-app
+  pnpm install
+  pnpm run dev
+``` 
