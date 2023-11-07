@@ -11,3 +11,18 @@
   pnpm install
   pnpm run dev
 ``` 
+### 约束代码风格 安装Eslint 
+```
+# eslint 安装
+pnpm add eslint --dev
+
+# eslint 插件安装
+pnpm add eslint-plugin-vue --dev
+
+pnpm add @typescript-eslint/eslint-plugin --dev
+
+pnpm add eslint-plugin-prettier --dev
+
+# typescript parser
+pnpm add @typescript-eslint/parser --dev
+``` 
